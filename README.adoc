@@ -1,0 +1,13 @@
+= Plugin Generator
+
+This repository contains the  Plugin generator application for RHQ[http://jboss.org/rhq/].
+The generator is a standalone application that can be used to create initial skeletons
+of a(n agent) plugin for RHQ. The generator creates all the artifacts like
+Maven `pom.xml`, the plugigin component and discovery classes as well as the
+plugin descriptor `rhq-plugin.xml`.
+
+The generator can be run as a command line tool or via a JavaFX-UI.
+The later also allows to scan existing classes for annotations that describe
+metrics and operations.
+
+
